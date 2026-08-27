@@ -1,4 +1,4 @@
-package bank.core;
+package core.bank;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

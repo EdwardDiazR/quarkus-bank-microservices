@@ -1,0 +1,21 @@
+quarkus:
+  http:
+    port: 8089
+
+  datasource:
+    db-kind: oracle
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    jdbc:
+      url: ${DB_URL}
+
+  hibernate-orm:
+    database:
+      generation: update
+    jdbc:
+      fetch-size: 50
+    log:
+      sql: true
+  rest-client:
+    "customer-service":
+      url: "http://localhost:8080"

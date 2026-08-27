@@ -1,0 +1,17 @@
+quarkus:
+  http:
+    port: 8080
+  datasource:
+    db-kind: oracle
+    username: CUSTOMER_MS
+    password: Customer123
+    jdbc:
+      url: jdbc:oracle:thin:@localhost:1521/XEPDB1
+
+  hibernate-orm:
+    database:
+      generation: update
+    jdbc:
+      fetch-size: 50
+    log:
+      sql: true

@@ -1,4 +1,4 @@
-package bank.core;
+package bank.core.customer;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
