@@ -1,6 +1,6 @@
 # 🏦 Quarkus Bank Microservices
 
-Sistema de microservicios bancarios construido con **Quarkus** y **Java 17+**, diseñado para operaciones financieras de alto rendimiento y baja latencia.
+Sistema de microservicios bancarios construido con **Quarkus** y **Java 21**, diseñado para operaciones financieras de alto rendimiento y baja latencia.
 
 ---
 
