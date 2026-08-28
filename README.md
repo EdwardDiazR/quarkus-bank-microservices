@@ -1,49 +1,43 @@
 # 🏦 Quarkus Bank Microservices
 
-Sistema de microservicios bancarios construido con **Quarkus** y **Java 21**
+Sistema de microservicios bancarios construido con **Quarkus** y **Java 21**, diseñado para operaciones financieras de alto rendimiento y baja latencia.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Framework:** Quarkus (RESTEasy Reactive, Panache)
+* **Framework:** Quarkus
 * **Lenguaje:** Java 21
 * **Base de Datos:** Oracle DB
-* 
+* **Documentación:** Swagger / OpenAPI
+
 ---
 
 ## 📸 Demostración / Respuestas de la API
 
-### 1. Gestión de Cuentas
+### 1. Gestión de Clientes
+> Ejemplo de respuesta al consultar la información de un cliente:
+
+![Consulta de Cliente](docs/images/customer-response.png)
+
+---
+
+### 2. Gestión de Cuentas
 > Ejemplo de respuesta al consultar la información de una cuenta bancaria:
 
 ![Consulta de Cuenta](docs/images/account-response.png)
 
 ---
 
-### 2. Creación de Transacción
-> Ejemplo de payload y respuesta al procesar una transferencia o depósito:
-
-![Crear Transacción](docs/images/transaction-response.png)
-
----
-
-### 3. Documentación con Swagger UI
+### 4. Documentación con Swagger UI
 > Interfaz interactiva para probar los endpoints del sistema:
 
-![Swagger UI](docs/images/swagger-ui.png)
+![Swagger UI](docs/images/customer-swagger-api.png)
+![Swagger UI](docs/images/account-swagger-api.png)
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto
-
-### Requisitos
-* JDK 17+
-* Docker (para la base de datos)
-
-### Pasos
-
-1. **Clonar el repositorio:**
+**Clonar el repositorio:**
    ```bash
    git clone [https://github.com/EdwardDiazR/quarkus-bank-microservices.git](https://github.com/EdwardDiazR/quarkus-bank-microservices.git)
    cd quarkus-bank-microservices
